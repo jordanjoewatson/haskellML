@@ -31,3 +31,5 @@ The weight 0.5 is associated with the inputs 1 and 4, and the weight 0.25 is the
 The activation functions that can be used unless you add more are sign, sigmoid and step
 
 The perceptron will compute every training data with its results and if found an incorrect prediction it will adjust its weights, after going through all of the training data it will then use the [inputs] arguments to predict a result with the updated weights.
+
+The Tests.hs file shows how you can use the perceptron, although it's not a very intereting example, the file shows the perceptron classifying points above or below the graph y = x after learning from the training data.
